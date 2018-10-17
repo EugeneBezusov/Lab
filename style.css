@@ -1,0 +1,326 @@
+body {
+    width: 100%;
+    min-width: 800px;
+}
+header{
+    background: url(img/bgtop.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top right;
+}
+@font-face {
+    font-family: 'Lato Bold'; 
+    src: url('fonts/latobold.ttf')
+}
+@font-face {
+    font-family: 'Lato Regular'; 
+    src: url('fonts/latoregular.ttf')
+}
+@font-face {
+    font-family: 'Lato Light'; 
+    src: url('fonts/latolight.ttf')
+}
+.logo {
+    display: flex;
+    margin: auto;
+    padding-top: 190px;
+    cursor: pointer;
+}
+.title1 {
+    font-family: 'Lato Bold';
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 6px;
+}
+.title2 {
+    font-family: 'Lato Regular';
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 2em;
+    position: relative;
+    bottom: 10px;
+    opacity: 0.8;
+}
+.scroll {
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    cursor: pointer;
+
+}
+.about {
+    background: url(img/bord1.png) no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 207px;
+    margin: 120px auto;
+}
+.abouttitle {
+    font-family: 'Lato Bold';
+    font-size: 28px;
+    letter-spacing: 6px;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    color: #3c3c3c;
+}
+.aboutus {
+    font-family: 'Lato Light';
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+    line-height: 1.5em;
+    color: #3c3c3c;
+}
+.bg2 {
+    background: url(img/bg2.jpg) no-repeat;
+    background-size: cover;
+    background-position: top right;
+    width: 100%;
+    height: 400px;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.bord2 {
+    background: url(img/bord2.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 600px;
+    height: 207px;
+    margin: 0 auto;
+}
+.abouttitle2 {
+    font-family: 'Lato Bold';
+    font-size: 28px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+}
+.services {
+    font-family: 'Lato Light';
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.5em;
+    color: white;
+}
+.wwd {
+    padding-top: 100px;
+}
+.wwd_bg-bord {
+    background: url(img/bord3.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 786px;
+}
+.wwd_title {
+    font-family: 'Lato Bold';
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    color: #3c3c3c;
+}
+.wwd_img1 {
+    text-align: center;
+}
+.wwd_design {
+   font-family: 'Lato Bold';
+   font-size: 20px;
+   letter-spacing: 3px;
+   text-align: center;
+   color: #3c3c3c;
+}
+.wwd_article {
+    font-family: 'Lato Light';
+    font-size: 11px;
+    line-height: 1.5em;
+    color: #3c3c3c;
+}
+.wwd_img2 {
+    text-align: center;
+    margin-top: 40px;
+}
+.wwd_dev {
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #3c3c3c;
+}
+.wwd_article2 {
+    font-family: 'Lato Light';
+    font-size: 11px;
+    line-height: 1.5em;
+    color: #3c3c3c;
+}
+.wwd_img3 {
+    text-align: center;
+    margin-top: 40px;
+}
+.wwd_pm {
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #3c3c3c;
+}
+.wwd_article3{
+    font-family: 'Lato Light';
+    font-size: 11px;
+    line-height: 1.5em;
+    color: #3c3c3c;
+}
+.topblock {
+    width: 100%;
+    height: 243px;
+    float: left;
+    margin-top: 100px;
+}
+.topworkz {
+    display: flex;
+    width: calc(30% - 6px);
+    height: 240px;
+    box-sizing: border-box;
+    background: url(img/1.jpg) no-repeat;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+.joint{
+    display: flex;
+    width: calc(40% - 6px);
+    height: 240px;
+    box-sizing: border-box;
+    background: url(img/2.jpg) no-repeat;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.market{
+    display: flex;
+    width: calc(30% - 6px);
+    height: 240px;
+    box-sizing: border-box;
+    background: url(img/3.jpg) no-repeat;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+.bottomblock {
+    clear: both;
+    width: 100%;
+    height: 300px;
+}
+.WORKTOP {
+    clear: both;
+    display: flex;
+    width: calc(30% - 6px);
+    height: 240px;
+    box-sizing: border-box;
+    background: url(img/4.jpg) no-repeat;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+.LABLE{
+    display: flex;
+    width: calc(40% - 6px);
+    height: 240px;
+    box-sizing: border-box;
+    background: url(img/5.jpg) no-repeat;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.KYIV{
+    display: flex;
+    width: calc(30% - 6px);
+    height: 240px;
+    box-sizing: border-box;
+    background: url(img/6.jpg) no-repeat;
+    float: left;
+    margin: 3px;
+    cursor: pointer;
+}
+.block_text {
+    position: relative;
+    top: 70%;
+    left: 10%;
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+    cursor: pointer;
+}
+.contact {
+    clear: both; 
+    background: url(img/bord4.png) no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 700px;
+}
+.contact {
+    background: url(img/bord4.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 600px;
+    height: 210px;
+    margin: 0 auto;
+}
+.contact_title {
+    font-family: 'Lato Bold';
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #3c3c3c;
+}
+.contact_article {
+    font-family: 'Lato Light';
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.5em;
+}
+.contact_bottom {
+    display: block;
+    font-family: 'Lato Regular';
+    text-align: center;
+    margin: auto;
+    font-size: 11px;
+    line-height: 1.5em;
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: #3c3c3c;
+    padding-top: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.bottom {
+    margin-top: 20px;
+}
+.logobottom {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 120px;
+}
+.end_titile {
+    display: block;
+    font-family: 'Lato Regular';
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.5em;
+    color: #3c3c3c;
+    position: relative;
+    bottom: 36px;
+}
